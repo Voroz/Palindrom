@@ -23,7 +23,7 @@ bool isPalindrome(const string& str){
 
 	// Create reversed string from str1
 	string str2 = "";
-	for (int i = str1.size() - 1; i >= 0; i--){
+	for (int i = str1.length() - 1; i >= 0; i--){
 		str2 += str1[i];
 	}
 
